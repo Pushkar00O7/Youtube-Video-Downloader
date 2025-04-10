@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>YouTube Downloader</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      padding: 16px;
+      width: 300px;
+    }
+
+    h2 {
+      text-align: center;
+      color: #e62117;
+    }
+
+    input[type="text"] {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      margin-bottom: 12px;
+    }
+
+    button {
+      background-color: #e62117;
+      color: white;
+      border: none;
+      padding: 10px;
+      border-radius: 8px;
+      width: 100%;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    button:hover {
+      background-color: #c91812;
+    }
+
+    .status {
+      margin-top: 10px;
+      text-align: center;
+      font-size: 14px;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <h2>YT Video Downloader</h2>
+  <input type="text" id="urlInput" placeholder="Paste YouTube URL here" />
+  <button id="downloadBtn">Download Video</button>
+  <div class="status" id="statusText"></div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
