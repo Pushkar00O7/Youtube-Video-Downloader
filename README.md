@@ -22,8 +22,7 @@ yt-downloader/
 
 🛠️ How to Use This Project
 1️⃣ Clone the Repository
-git clone https://github.com/Pushkar00O7/yt-downloader.git
-cd yt-downloader
+git clone https://github.com/Pushkar00O7/Youtube-Video-Downloader
 
 
 🌐 Step 1: Setup the Backend Server
