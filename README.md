@@ -22,7 +22,7 @@ yt-downloader/
 
 🛠️ How to Use This Project
 1️⃣ Clone the Repository
-git clone https://github.com/your-username/yt-downloader.git
+git clone https://github.com/Pushkar00O7/yt-downloader.git
 cd yt-downloader
 
 
